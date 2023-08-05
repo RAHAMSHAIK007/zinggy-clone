@@ -1,0 +1,73 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    /* padding: 10px; */
+
+  
+}
+.Sub-container{
+    width: 350px;
+}
+.price-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.price-boxes span{
+    margin-left: 12px;
+}
+.img-container{
+    align-items: center;
+    width: 100%;
+    
+}
+.price-boxses{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.imagediv{
+    width: 100%;
+    border-radius: 15px;
+}
+.BFS-btn{
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 50px;
+    width: 80px;
+}
+.BFS-container{
+     width: 100%;
+     height: 200px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     
+}
+.BFS-imgcontainer{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 200px;
+    border-radius: 7px;
+    background-size: cover;
+}
+.BFSContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    padding: 10px;
+    width: 280px;
+    margin-right: 20px;
+   
+}

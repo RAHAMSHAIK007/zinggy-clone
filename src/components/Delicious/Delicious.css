@@ -1,0 +1,46 @@
+.boneless-img{
+    /* padding: 10px; */
+    border-radius: 9%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.les-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 220px;
+    margin-right: 11px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:10px;
+    height:350px;
+}
+.bspan-classes{
+    display: flex;
+    flex-direction: row;
+    margin-right: 12px;
+}
+.bspan-classes span{
+    margin: 12px;
+}
+.Bmain-container{
+    font-size: 24px;
+    font-family: roboto;
+}
+.BMain-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start ;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 7%;
+}
+
+.Span-Div{
+    display: flex;
+    justify-content: flex-start;
+}

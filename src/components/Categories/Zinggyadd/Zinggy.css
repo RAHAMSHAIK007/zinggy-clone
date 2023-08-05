@@ -1,0 +1,71 @@
+.logo-container{
+    width: 100px;
+    margin-top: 12px;
+    border-radius: 7px;
+}
+.zhead-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.Add-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+.kit-container{
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: bold;
+}
+.follow-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 10px;
+}
+.App-imgdow{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.Uselink-container{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;margin-right: 20px;
+
+}
+.us-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left:24px ;
+    margin-top: 24px;
+}
+.aboutcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 24px;
+   
+
+}
+.contactus
+{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.Addblog-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}

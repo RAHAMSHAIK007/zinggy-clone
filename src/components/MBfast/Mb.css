@@ -1,0 +1,143 @@
+
+.slider-img{
+    
+    width: 100%;
+    height: 200px;
+    margin-bottom: 160px;
+    
+}
+.banner-slider {
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+.img-src{
+    width: 100%;
+}
+.courusal-side{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;;
+    width: 40%;
+    
+
+}
+.sidebyside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 40%;
+    
+}
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.chicken-container{
+    width: 80%;
+    /* height: 900px; */
+    border-radius: 10px;
+    /* padding: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 20px;
+    
+    
+}
+.weight-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 350px;
+    
+}
+
+.cwecontainer{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+}
+.ChickenCurry-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 15px;
+
+}
+
+.ChickenCurry-container>:nth-child(1){
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.price-container span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.btn{
+    background-color: rgb(199, 161, 91);
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 150px;
+    height: 30px;
+    color: white;
+}
+.content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

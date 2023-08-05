@@ -1,0 +1,94 @@
+.Fish-spanContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Fish-sideContainer{
+    width: 40%;
+}
+.fishbig-img{
+    width: 400px;
+    border-top-left-radius: 50px 20px;
+    border-top-right-radius: 50px 20px;
+   
+}
+.fish-container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.Fish-maincontainer{
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.fweightcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 300px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.fishside-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.fishtotaldiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.fishweight-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.fishmenu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   margin-bottom: 15px;
+}
+.fishimg-container{
+    width:250px;
+    border-top-left-radius: 50px 15px;
+    border-top-right-radius: 50px 15px;
+    padding: 10px;
+    
+}
+.fishbuttonclass{
+    border: none;
+    background-color: transparent;
+}
+.fishbuttonclassspan{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 40px !important;
+}
+
+.plus-minue-div{
+    display: flex;
+    align-items: center;
+  border: 1px solid black;
+  width: 80px;
+  height: 21px;
+}
+
+.plus-minue-div span{
+
+}
+.fishfullcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}

@@ -1,0 +1,39 @@
+
+
+.categories{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 20px;
+    margin-left: 20px; */
+}
+
+.categories-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 16%;
+    /* margin: 20px; */
+    /* border: 1px solid red; */
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.categories-card img{
+    width: 80%;
+}
+
+.categories-card span{
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.cate-heading{
+    margin-left: 60px;
+    font-size: 24px;
+    font-style: bold;
+}

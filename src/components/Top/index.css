@@ -1,0 +1,42 @@
+.top-imageContainer{
+    width: 100%;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+.top-container{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 230px;
+height: 320px;
+padding: 10px;
+/* border: 1px solid black; */
+border-radius: 7px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.span-container{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.span-container span{
+    margin-right: 10px;
+}
+.heading-container{
+    font-size: 24px;
+    font-style: italic;
+}
+.Main-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+
+}
+.Span-Div{
+    display: flex;
+    justify-content: flex-start;
+}

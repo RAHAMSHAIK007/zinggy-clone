@@ -1,0 +1,54 @@
+.Combo-imgcontainer{
+    width: 100%;
+    border-radius: 9px;
+}
+.combo-maincontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Combo-imgcontainer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 24px;
+    
+}
+.prices-container 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.prices-container span{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 12px;
+}
+.combo-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    width: 224px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-right: 15px;
+    padding: 10px;
+    height:320px;
+    margin-bottom: 15px;
+}
+.combo-heading{
+    font-size: 24px;
+    text-decoration: none;
+    color:black;
+}
+.combo-weight{
+    font-size: 18px;
+}
+.combo-weight span{
+margin-left: 12px;
+}
