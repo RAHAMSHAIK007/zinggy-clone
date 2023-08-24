@@ -1,0 +1,39 @@
+.form-control-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height:400px;
+    border: 1px solid black;
+    padding: 15px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+   background-color: white;
+    
+    border-radius: 7px;
+}
+.gender-conntainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    accent-color:"blue"
+}
+.loginform-login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://godavaricuts.com/cdn/shop/files/DSC08295_940x.jpg?v=1682935454");
+    width: 350px;
+    height: 90vh;
+    /* background-color: white; */ 
+}
+.login-btn{
+    margin-top: 12px;
+    width: 60px;
+}
+.login-dob-container{
+    display: flex;
+    flex-direction: column;
+
+}

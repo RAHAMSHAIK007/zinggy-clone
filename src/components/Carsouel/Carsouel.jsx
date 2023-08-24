@@ -25,7 +25,7 @@ const BannerSlider = () => {
           <img className='corsouelsliderdd-img'src="https://dao54xqhg9jfa.cloudfront.net/oms/518ec3ac-96d2-936f-1ef0-a6e5a1b18dce/original/WEB_NEW_50.jpeg" alt="Slide 1" />
         </div>
         <div>
-          <img className='corsouelsliderdd-img'src="https://dao54xqhg9jfa.cloudfront.net/oms/518ec3ac-96d2-936f-1ef0-a6e5a1b18dce/original/WEB_NEW_50.jpeg" alt="Slide 2" />
+          <img className='corsouelsliderdd-img'src="https://zinggy.in/image/images/BrSGbxBnmK2C9NqKR1IifxKKsBxQvJ2IHhrOTNrQ.jpeg?p=main_slider" alt="Slide 2" />
         </div>
         <div>
           <img  className='corsouelsliderdd-img'src="https://dao54xqhg9jfa.cloudfront.net/oms/518ec3ac-96d2-936f-1ef0-a6e5a1b18dce/original/WEB_NEW_50.jpeg" alt="Slide 3" />

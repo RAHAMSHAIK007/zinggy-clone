@@ -1,10 +1,10 @@
-import "./index.css"
+import "./FishSubCat.css"
 
 import {BsFillLightningChargeFill} from 'react-icons/bs'
 
 import {Link} from 'react-router-dom'
 
-const Bestseller=({Bestsellers})=>{
+const FishSubCat=({fishSellers})=>{
   
 
 
@@ -12,39 +12,39 @@ const Bestseller=({Bestsellers})=>{
     return(
         <>
          <div >
-           <h2>Bestsellers</h2>
+           <h2>fishsellers</h2>
            <p>Most popular products near you!</p>
          </div>
-         <div className="best-main"  style={{
+         <div  style={{
             display:"flex",
             marginRight :"10px",
             flexWrap : "wrap"
          }}>
-         {Bestsellers.map((each) =>(
+         {fishSellers.map((each) =>(
 
            
  
 
 
-        <Link to="/bestseller" style={{
-          textDecoration:"none"
-        }}>
-         <div className="Bestseller-item">
-             <div className="BS-Container">
-              <img className="Bestseller-imgContainer"src={each.image} />
+        // <Link to="/bestseller" style={{
+        //   textDecoration:"none"
+        // }}>
+         <div className="FishSubCat-item">
+             <div className="FishSubCat-Container">
+              <img className="FishSubCat-imgContainer"src={each.img} />
                <h3>{each.name}</h3>
                <span>{each.weight}</span>
             <div>
                <span>{each.offerPrice}</span>
                 <span>{each.originalPrice}</span>   
                 </div>   
-              <div class="Bs-Delivery">
+              <div class="FishSubCat-Delivery">
                <BsFillLightningChargeFill />
                  <span> Today in 90 min</span>
               </div>
           </div>
           </div>
-          </Link>
+        //   </Link>
 
       
          ))}
@@ -53,4 +53,4 @@ const Bestseller=({Bestsellers})=>{
         </>
     )
 }
-export default Bestseller;
+export default FishSubCat;

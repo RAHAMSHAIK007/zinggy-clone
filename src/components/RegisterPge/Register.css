@@ -1,0 +1,36 @@
+.Register-form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    width: 300px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    /* background-color: transparent;
+    background: none; */
+   
+}
+.Register-main-div-container{
+   
+    /* background-image: url("https://cdn-dlopd.nitrocdn.com/WvjGxjzkqpCRBAFiAQBxkifGOZsxmrbF/assets/static/optimized/rev-3cf5128/wp-content/uploads/2021/09/Masala-Fish-Curry-Recipe-min-scaled.jpg");
+    background-size: cover; */
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+    width: 500px;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.rig-btn-container{
+    width: 60px;
+}
+.register-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}

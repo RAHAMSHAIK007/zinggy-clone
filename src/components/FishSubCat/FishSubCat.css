@@ -1,5 +1,5 @@
 
-.Bestseller-item{
+.FishSubCat-item{
     /* display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,25 +10,11 @@
     color: #000;
     text-decoration: none;
 }
-
-@media (max-width:768px){
-    .Bestseller-item{
-        width: 100%;
-        height: 380px;
-    }
-    .best-main{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem; 
-        width: 100%;   
-   }
-}
-
-.Bestseller-item:hover{
+.FishSubCat-item:hover{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.Bestseller-imgContainer{
+.FishSubCat-imgContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +24,7 @@
     border-radius: 7px;
 
 }
-.BS-Container{
+.FishSubCat-Container{
     display: flex;
     flex-direction: column;
     /* justify-content:center ; */
@@ -48,15 +34,15 @@
     height: 100%;
 }
 
-.BS-Container div{
+.FishSubCat-Container div{
     display: flex;
     justify-content: flex-start;
     margin-top: 10px;
 }
-.BS-Container div span{
+.FishSubCat-Container div span{
     margin-right: 20px;
 }
-.Bs-Delivery{
+.FishSubCat-Delivery{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +50,7 @@
     margin-top: 15px;
 }
 
-.Bs-Delivery>:nth-child(1){
+.FishSubCat-Delivery>:nth-child(1){
     color: orange;
     margin-right: 10px;
     border: 1px solid orange;

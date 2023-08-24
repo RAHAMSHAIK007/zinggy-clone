@@ -1,0 +1,77 @@
+
+.RTCFtcorsouelsliderdd-img{
+   width: 100%;
+   /* height: 20px;
+  border: 1px solid black; */
+}
+.RTCFtbanner-slider {
+  display: flex;
+  justify-content: row;
+  align-items: center; 
+  width: 50%;
+  height: 20px; 
+  /* border: 1px solid black; */
+  /* overflow: hidden; */
+  }
+  .RTCFxt-div-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* width: 200px; */
+  }
+  .RTCFxt-div-main-container{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   margin-right: 30px;
+   margin-top:20px ;
+  }
+  .RTCFxt-body-container{
+    display: flex;
+    flex-direction: row;
+    margin-left:40px ;
+    margin-top: 20px;
+    /* width: 100%;  */
+     /* height: 100px; */
+
+  }
+  .RTCFxt-background-div-container{
+    background-color: rgb(201, 227, 255);
+    /* width: 100%;
+    height: 400px; */
+    line-height: 40px;
+  }
+  .RTCfxtslider-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height:50px
+  }
+  /* .RTCFxt-subdiv-container{
+    display: flex;
+    flex-direction: column;
+    
+
+  
+  } */
+
+
+  .ff-banner-slider{
+    width: 80%;
+    height: 20px;
+    border-radius: 7px;
+  }
+  
+  .ff-slider-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .corsouelsliderdd-img{
+    width: 100%;
+    border-radius: 7px;
+    /* border: 1px solid black; */
+  }

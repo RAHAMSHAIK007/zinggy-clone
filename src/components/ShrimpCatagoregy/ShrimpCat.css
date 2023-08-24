@@ -1,0 +1,60 @@
+.Shrimp-img-container{
+    width: 300px;
+    border-radius:7px ;
+}
+.Shrimp-main-img-container{
+    width: 300px;
+}
+.Shrimp-main-div-container{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.Shrimp-main-div-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+.Shrimp-price-img-container{
+    display:flex;
+    flex-direction: row;
+    
+}
+.shrimp-content-container{
+    width: 300px;
+    line-height: 30px;
+}
+.Shrimp-weighr-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.shrimp-butn-container{
+    /* border: 1px solid black; */
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px ;
+    background-color: #D11243;
+    color: white;
+}
+.Shrimp-del-div-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 15px;
+}
+.shrimp-main-container{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    /* justify-content: center; */
+    gap: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+}

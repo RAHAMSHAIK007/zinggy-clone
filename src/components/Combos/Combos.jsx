@@ -14,8 +14,8 @@ const Combos=({CombosForYou, About})=>{
             <div className="combo-maincontainer">
             {CombosForYou.map((each)=>(
            <Link to='/recipe'>
-             <div className="combo-box" >
-                <img  className="Combo-imgcontainer"src={each.image}/>
+             <div className="combo-box" style={{textDecoration:"none"}} >
+                <img  className="Combo-imgcontainer"src={each.img}/>
                 <h4 className="combo-weight">{each.name}</h4>
                 <span>{each.weight}</span>
                     <div className="prices-container">

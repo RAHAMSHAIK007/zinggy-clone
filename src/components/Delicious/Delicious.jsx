@@ -14,7 +14,7 @@ const BonelessFood = ({DeliciousBonelessCuts}) => {
             </div>
             {DeliciousBonelessCuts.map((each)=>(
                  <div className='les-container'>
-                 <img  className=" boneless-img"src={each.image}/>
+                 <img  className=" boneless-img"src={each.img}/>
                  <h3>{each.name}</h3>
                  <span>{each.weight}</span>
                  <div className='bspan-classes'>

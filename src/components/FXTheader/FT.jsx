@@ -1,40 +1,40 @@
-import './index.css';
+import './FT.css';
 import {FaWeightHanging} from 'react-icons/fa'
 import {MdFoodBank} from 'react-icons/md'
 import {ImSpoonKnife} from 'react-icons/im'
 import Zinggyadd from '../Categories/Zinggyadd/Zinggyadd';
 import Aboutzinggy from '../About/About';
 
-const Chicken=({About})=>{
+const FishCurry=({About})=>{
     return(
         <>
-            <div className='ChickenCurry-container'>
+            <div className='fishCurry-container'>
                 {/* {chickencurry.map((each) => ( */}
                     <>
 
                   <div>
-                    <img className='chicken-container' src="https://dao54xqhg9jfa.cloudfront.net/OMS-ProductMerchantdising/c6611e27-fff4-7144-5f5d-af1666b60d9a/original/PDP_9._Chicken_Curry_Cut_Small_-_Large_Pack_HYD_(2).jpg" />
+                    <img className='fish-container' src="https://cdn-dlopd.nitrocdn.com/WvjGxjzkqpCRBAFiAQBxkifGOZsxmrbF/assets/static/optimized/rev-3cf5128/wp-content/uploads/2021/09/Masala-Fish-Curry-Recipe-min-scaled.jpg" />
                   </div>
                 <div className='content-container'>
-                    <h3>Chicken Curry Cut - Small Pieces (Large Pack)</h3>
+                    <h3>Fish Curry Cut - Small Pieces (Large Pack)</h3>
                     <span>Bone-In | Small Cuts | Curry Cut</span>
                     <div>
-                        <div className='weight-container'>
-                            <div className='cwecontainer'>
+                        <div className='fishweight-container'>
+                            <div className='fishcwecontainer'>
                                 <FaWeightHanging/>
                                 <span>1000g</span>
                             </div>
-                            <div className='cwecontainer'>
+                            <div className='fishcwecontainer'>
                                 <ImSpoonKnife/>
                                 <span>24-36 Pieces</span>
                             </div>
-                            <div className='cwecontainer'>
+                            <div className='fishcwecontainer'>
                                 <MdFoodBank/>
                                 <span>Serves 6</span>
                             </div>
                         </div>
-                        <div className='content'>
-                        <span>Licious Chicken Curry Cut is a premium cut that includes the leg, breast & wings.This smaller, tender cut has equal-sized pieces for uniform cooking and the juiciest bites.Our meaty, juicy Chicken Curry Cut is perfect for a large meal.</span>
+                        <div className='fishcontent'>
+                        <span>Zinggy Fish Curry Cut is a premium cut .This smaller, tender cut has equal-sized pieces for uniform cooking and the juiciest bites.Our meaty, juicy Fish Curry Cut is perfect for a large meal.</span>
                         <span>Nutritional Information: (Approx Values per 100 g)</span>
                            <span> Total Energy: 127 Kcal</span>
                             <span>Carbohydrate: 0 g</span>
@@ -45,12 +45,12 @@ const Chicken=({About})=>{
 
                         </div> 
                         <hr />
-                        <div className='price-container'>
+                        <div className='fishprice-container'>
                             <span>₹305.00</span>
                                 <span ><s>₹345.00</s></span>
                                <span style={{color:"green"}}> 11% off
                             </span>
-                            <button className='btn'>ADD +</button>
+                            <button className='fishbtn'>ADD +</button>
                         
                         </div>
                     </div>
@@ -63,4 +63,4 @@ const Chicken=({About})=>{
         </>
     )
 }
-export default Chicken;
+export default FishCurry;

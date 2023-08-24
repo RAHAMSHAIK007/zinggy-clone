@@ -16,3 +16,18 @@
    
     
 }
+
+@media (max-width:768px){
+    .Fresh-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 7px;
+    
+   gap: 1rem;
+    
+}
+}

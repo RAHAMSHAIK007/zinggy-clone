@@ -15,7 +15,7 @@ const Top=({TopRated})=>{
         
         {TopRated?.map((i)=>(
             <div className='top-container'>
-            <img className='top-imageContainer' src={i.image}/>
+            <img className='top-imageContainer' src={i.img}/>
             <h3>{i.name}</h3>
             <span>{i.weight}</span>
             <div className='span-container'>

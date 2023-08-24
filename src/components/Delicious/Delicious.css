@@ -27,8 +27,9 @@
     margin: 12px;
 }
 .Bmain-container{
-    font-size: 24px;
-    font-family: roboto;
+    font-size: 18px;
+    font-style: bold;
+    width: 100%;
 }
 .BMain-div{
     display: flex;
